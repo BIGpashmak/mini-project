@@ -96,12 +96,14 @@ body{
 .icon img:hover{
     background-color: rgb(236, 236, 236);
 }
-.section1 {
-    height: 550px;
-    background-color: #282a35;
+.section1 , .section2 {
+    height: 520px;
     position: relative;
 }
-.section1 .left{
+.section1{
+    background-color: #282a35;
+}
+.section1 .left , .section2 .left{
     width: 50%;
     height: 100%;
     position: absolute;
@@ -109,7 +111,7 @@ body{
     padding-top:100px ;
     text-align: center;
 }
-.section1 .right{
+.section1 .right , .section2 .right{
     width: 50%;
     height: 100%;
     position: absolute;
@@ -144,11 +146,12 @@ body{
 }
 .container{
     width: 580px;
-    height: 410px;
+    height: 400px;
     background-color: #e7e9eb;
     margin: 70px auto;
     border-radius: 7px;
-    padding: 25px 10px;
+    padding: 25px 20px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 .code{
     width: 540px;
@@ -159,20 +162,20 @@ body{
     padding: 10px;
 }
 .doc{
-    color: #fa6f6f ;
+    color: brown ;
 }
 .html{
     color: red;
 }
-.btn4{
+.section2 .right .btn4 , .section1 .right .btn4{
     width: 200px;
     background-color: #04aa6d;
     color: #fff;
     border-radius: 30px;
     text-align: center;
-    margin: 20px 10px;
+    margin: 10px 0px;
     font-size: 18px;
-    padding:10px 25px;
+    padding:10px 0px;
 
 }
 .btn4:hover{
@@ -182,4 +185,20 @@ body{
     background-color:#029962;}
 .btn2:hover{
     background-color: rgb(236, 236, 236);
+}
+.section2{
+    background-color: #D9EEE1;
+}
+.section2 .left .title ,.section2 .left .desc{
+    color: #000;
+}
+.section2 .left .btn2{
+    background-color: #282a35;
+    color: #fff;
+}
+.section2 .left .btn2:hover{
+    background-color: #000000;
+}
+.attribute{
+    color: mediumblue;
 }
