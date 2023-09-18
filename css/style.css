@@ -99,7 +99,6 @@ body{
 .section1 , .section2, .section3 ,.section4 ,
 .section5{
     height: 550px;
-    position: relative;
 }
 .section1 , .section4{
     background-color: #282a35;
@@ -107,8 +106,7 @@ body{
 .section-left{
     width: 50%;
     height: 100%;
-    position: absolute;
-    left: 0;
+    float: left;
     padding-top:50px ;
     text-align: center;
     font-weight: bold;
@@ -116,8 +114,7 @@ body{
  .section-right{
     width: 50%;
     height: 100%;
-    position: absolute;
-    right: 0;
+    float: right;
 }
 .title{
     font-size: 110px;
