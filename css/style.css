@@ -96,35 +96,32 @@ body{
 .icon img:hover{
     background-color: rgb(236, 236, 236);
 }
-.section1 , .section2, .section3 {
-    height: 550px;
+.section1 , .section2 {
+    height: 520px;
     position: relative;
 }
-.section1{
+.section1 , .section4{
     background-color: #282a35;
 }
-.section1 .left , .section2 .left , .section3 .left{
+.section1 .left , .section2 .left{
     width: 50%;
     height: 100%;
-    position: absolute;
-    left: 0;
-    padding-top:100px ;
+    float: left;
+    padding-top:50px ;
     text-align: center;
+    font-weight: bold;
 }
-.section1 .right , .section2 .right , .section3 .right{
+.section1 .right , .section2 .right{
     width: 50%;
     height: 100%;
-    position: absolute;
-    right: 0;
+    float: right;
 }
 .title{
     font-size: 110px;
-    font-weight: bold;
     color: #fff;
 }
 .desc{
     color: #fff;
-    font-weight: bold;
     font-size: 19px;
     margin-top: 10px;
 }
@@ -135,6 +132,7 @@ body{
     padding: 10px 25px;
     border-radius: 30px;
     font-size: 18px;
+    
 }
 .btn1{
     background-color: #04aa6d;
@@ -160,9 +158,6 @@ body{
     margin: 15px auto;
     border-left: 5px solid #04aa6d;
     padding: 10px;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-    line-height: 20px;
 }
 .doc{
     color: brown ;
@@ -192,32 +187,16 @@ body{
 .section2{
     background-color: #D9EEE1;
 }
-.section2 .left .title ,.section2 .left .desc , .section3 .left .title , .section3 .left .desc{
+.section2 .left .title ,.section2 .left .desc{
     color: #000;
 }
-.section2 .left .btn2 , .section3 .left .btn2{
+.section2 .left .btn2{
     background-color: #282a35;
     color: #fff;
 }
-.section2 .left .btn2:hover , .section3 .left .btn2:hover{
+.section2 .left .btn2:hover{
     background-color: #000000;
 }
 .attribute{
     color: mediumblue;
-}
-.section3{
-    background-color: #FFF4A3;
-}
-.section3 .left .btn2 , .section3 .left .btn1{
-    width: 210px;
-}
-.section3 .right .container{
-    height: 370px;
-}
-.section3 .right .code{
-    height: 220px;
-    line-height: 22px;
-}
-.section3{
-    height: 510px;
 }
