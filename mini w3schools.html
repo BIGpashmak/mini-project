@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script language="JavaScript" type="text/javascript">
+        function breakout_of_frame()
+        {
+            if(top.location!=location) {
+                top.location= document.location.href;
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="header">
@@ -45,14 +53,14 @@
                 <div class="container">
                     <h2>HTML Example:</h2>
                     <div class="code">
-                        &lt;<span class="doc">!DOCTYPE</span>  <span class="html">html</span></span>&gt;<br>
-                        &lt;<span class="doc">html</span>&gt;<br>&lt;<span class="doc">head</span>&gt;<br>
-                        &lt;<span class="doc">title</span>&gt;HTML Tutorial&lt;<span class="doc">/title</span>&gt;<br>&lt;<span class="doc">/head</span>&gt;<br>
-                        &lt;<span class="doc">body</span>&gt;<br><br>
-                        &lt;<span class="doc">h1</span>&gt;This is a heading&lt;<span class="doc">/h1</span>&gt;<br>
-                        &lt;<span class="doc">p</span>&gt;This is a paragraph.&lt;<span class="doc">/p</span>&gt;<br><br>
-                        &lt;<span class="doc">/body</span>&gt;<br>
-                        &lt;<span class="doc">/html</span>&gt;           
+                        <span class="attribute">&lt;</span><span class="doc">!DOCTYPE</span>  <span class="html">html</span></span><span class="attribute">&gt;</span><br>
+                        <span class="attribute">&lt;</span><span class="doc">html</span><span class="attribute">&gt;</span><br><span class="attribute">&lt;</span><span class="doc">head</span><span class="attribute">&gt;</span><br>
+                        <span class="attribute">&lt;</span><span class="doc">title</span><span class="attribute">&gt;</span>HTML Tutorial<span class="attribute">&lt;</span><span class="doc">/title</span><span class="attribute">&gt;</span><br><span class="attribute">&lt;</span><span class="doc">/head</span><span class="attribute">&gt;</span><br>
+                        <span class="attribute">&lt;</span><span class="doc">body</span><span class="attribute">&gt;</span><br><br>
+                        <span class="attribute">&lt;</span><span class="doc">h1</span><span class="attribute">&gt;</span>This is a heading<span class="attribute">&lt;</span><span class="doc">/h1</span><span class="attribute">&gt;</span><br>
+                        <span class="attribute">&lt;</span><span class="doc">p</span><span class="attribute">&gt;</span>This is a paragraph.<span class="attribute">&lt;</span><span class="doc">/p</span><span class="attribute">&gt;</span><br><br>
+                        <span class="attribute">&lt;</span><span class="doc">/body</span><span class="attribute">&gt;</span><br>
+                        <span class="attribute">&lt;</span><span class="doc">/html</span><span class="attribute">&gt;</span>           
                     </div>
                     <div class="btn4">Try it Yourself</div>
                 </div>
@@ -74,6 +82,29 @@
                             <span class="doc">h1</span> {<br>
                             &nbsp; <span class="html">color</span>: <span class="attribute">white</span>;<br>
                             &nbsp; <span class="html">text-align</span>: <span class="attribute">center</span>;<br>}<br><br><span class="doc">p</span> {<br>&nbsp; <span class="html">font-family</span>: <span class="attribute">verdana</span>;<br>}           
+                    </div>
+                    <div class="btn4">Try it Yourself</div>
+                </div>
+        </div>       
+    </div>
+    <div class="section3">
+        <div class="left">
+                <h1 class="title">JavaScript</h1>
+                <p class="desc">The language for programming web pages</p>
+                <div class="btn1">Learn JavaScript</div>
+                <div class="btn2">JavaScript Reference</div>
+        </div>
+        <div class="right">
+                <div class="container">
+                    <h2>JavaScript Example:</h2>
+                    <div class="code">
+                        <span class="attribute">&lt;</span><span class="doc">button</span> <span class="html">onclick</span>=<span class="attribute">&quot;myFunction()&quot;&gt;</span>Click Me!<span class="attribute">&lt;</span><span class="doc">/button</span><span class="attribute">&gt;</span><br><br>
+                        <span class="attribute">&lt;</span><span class="doc">script</span><span class="attribute">&gt;</span><br>
+                        <span class="attribute">function</span> myFunction() {<br>
+                        &nbsp; <span class="attribute">let</span> x = document.getElementById(<span class="doc">&quot;demo&quot;</span>);<br>
+                        &nbsp; x.style.fontSize = <span class="doc">&quot;25px&quot;</span>; <br>
+                        &nbsp; x.style.color = <span class="doc">&quot;red&quot;</span>; <br>}<br>
+                        <span class="attribute">&lt;</span>span.doc/script<span class="attribute">&gt;</span>           
                     </div>
                     <div class="btn4">Try it Yourself</div>
                 </div>

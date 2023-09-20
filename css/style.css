@@ -96,14 +96,14 @@ body{
 .icon img:hover{
     background-color: rgb(236, 236, 236);
 }
-.section1 , .section2 {
-    height: 520px;
+.section1 , .section2, .section3 {
+    height: 550px;
     position: relative;
 }
 .section1{
     background-color: #282a35;
 }
-.section1 .left , .section2 .left{
+.section1 .left , .section2 .left , .section3 .left{
     width: 50%;
     height: 100%;
     position: absolute;
@@ -111,7 +111,7 @@ body{
     padding-top:100px ;
     text-align: center;
 }
-.section1 .right , .section2 .right{
+.section1 .right , .section2 .right , .section3 .right{
     width: 50%;
     height: 100%;
     position: absolute;
@@ -146,7 +146,7 @@ body{
 }
 .container{
     width: 580px;
-    height: 400px;
+    height: 410px;
     background-color: #e7e9eb;
     margin: 70px auto;
     border-radius: 7px;
@@ -154,12 +154,15 @@ body{
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 .code{
-    width: 540px;
-    height: 250px;
+    width: 550px;
+    height: 260px;
     background-color: #fff;
     margin: 15px auto;
     border-left: 5px solid #04aa6d;
     padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 20px;
 }
 .doc{
     color: brown ;
@@ -167,7 +170,7 @@ body{
 .html{
     color: red;
 }
-.section2 .right .btn4 , .section1 .right .btn4{
+.btn4{
     width: 200px;
     background-color: #04aa6d;
     color: #fff;
@@ -189,16 +192,32 @@ body{
 .section2{
     background-color: #D9EEE1;
 }
-.section2 .left .title ,.section2 .left .desc{
+.section2 .left .title ,.section2 .left .desc , .section3 .left .title , .section3 .left .desc{
     color: #000;
 }
-.section2 .left .btn2{
+.section2 .left .btn2 , .section3 .left .btn2{
     background-color: #282a35;
     color: #fff;
 }
-.section2 .left .btn2:hover{
+.section2 .left .btn2:hover , .section3 .left .btn2:hover{
     background-color: #000000;
 }
 .attribute{
     color: mediumblue;
+}
+.section3{
+    background-color: #FFF4A3;
+}
+.section3 .left .btn2 , .section3 .left .btn1{
+    width: 210px;
+}
+.section3 .right .container{
+    height: 370px;
+}
+.section3 .right .code{
+    height: 220px;
+    line-height: 22px;
+}
+.section3{
+    height: 510px;
 }
